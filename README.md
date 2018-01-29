@@ -3,6 +3,7 @@ Useful plugins for hexo beginners to quickly build his own blog
 
 Generate README.MDOWN using hexo's public/archives/index.html
 
+Quick look at: [Hackeryard Blog]("https://hackeryard.github.io")
 First, install prerequisites:
 ```
 pip3 install lxml requests
@@ -18,4 +19,6 @@ And Then, generate it:
 ```
 python3 generate_readme.py [your_blog_url]
 ```
+
+Tested on Win10 and Centos7, any questions you'd like to open an issue.
 
