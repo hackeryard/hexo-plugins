@@ -20,5 +20,5 @@ And Then, generate it:
 python3 generate_readme.py [your_blog_url]
 ```
 
-Tested on Win10 and Centos7, any questions you'd like to open an issue.
+Tested on Win10 and Centos7, any question you'd like to open an issue.
 
