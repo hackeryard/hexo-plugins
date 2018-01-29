@@ -8,12 +8,14 @@ First, install prerequisites:
 pip3 install lxml requests
 ```
 Secondly, put the generate_readme.py under the hexo blog dir:
+
 hexo_blog
 - public
 - generate_readme.py
 - ...
 
 And Then, generate it:
-```python3 generate_readme.py [your_blog_url]
+```
+python3 generate_readme.py [your_blog_url]
 ```
 
