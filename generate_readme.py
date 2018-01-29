@@ -1,4 +1,4 @@
-#coding:utf-8  
+﻿#coding:utf-8  
 from lxml import etree
 import requests
 import codecs
@@ -36,7 +36,7 @@ script5 = html.xpath("//a[@class='archive-list-link']/text()")
 script6 = html.xpath("//a[@class='archive-list-link']/@href")
 
 
-with open("./source/hack.MDOWN", "w") as file:
+with open("./source/README.MDOWN", "w") as file:
     file.write("# 欢迎大家访问我的博客站点\n\n")
     file.write("## 分类:\n\n")
     for i in range(len(script)):
